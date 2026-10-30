@@ -1,0 +1,114 @@
+.about-section {
+    padding: 50px 8%;
+    background: #fff8f2;
+    min-height: 70vh;
+}
+
+.about-intro {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.about-intro h1 {
+    color: #70443c;
+    font-size: 32px;
+}
+
+.about-intro h2 {
+    color: #a65f50;
+}
+
+.about-intro p {
+    line-height: 1.8;
+    color: #55433e;
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.about-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.about-card h2,
+.why-choose-us h2 {
+    color: #70443c;
+}
+
+.about-card p,
+.why-choose-us li {
+    line-height: 1.8;
+}
+
+.why-choose-us {
+    max-width: 800px;
+    margin: 0 auto 35px;
+}
+
+.about-button {
+    text-align: center;
+}
+
+.about-button a {
+    display: inline-block;
+    background: #a65f50;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+}
+
+.about-button a:hover {
+    background: #70443c;
+}
+
+@media (max-width: 600px) {
+    .mission-vision {
+        grid-template-columns: 1fr;
+    }
+
+    .about-intro h1 {
+        font-size: 26px;
+    }
+}
+.franchise-section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+    background: #fff5ed;
+    border-radius: 15px;
+}
+
+.franchise-section h2 {
+    color: #b84d70;
+}
+
+.franchise-section ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+.franchise-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #b84d70;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.franchise-button:hover {
+    background: #913653;
+}
