@@ -403,3 +403,9 @@ nav a:hover {
     height: auto;
     object-fit: contain;
 }
+
+.logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
